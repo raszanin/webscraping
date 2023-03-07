@@ -1,0 +1,19 @@
+{
+  "name": "webscraping",
+  "version": "1.0.0",
+  "description": "webscraping",
+  "main": "index.js",
+  "repository": "https://github.com/raszanin/webscraping.git",
+  "author": "Roberto Zanin <raszanin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "puppeteer": "^19.7.3"
+  }
+}
